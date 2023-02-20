@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-12T13:29:20 IST" name="Suite" finished-at="2023-02-12T13:29:43 IST" duration-ms="22629">
+    <groups>
+    </groups>
+    <test started-at="2023-02-12T13:29:20 IST" name="ChromeTest" finished-at="2023-02-12T13:29:27 IST" duration-ms="6697">
+      <class name="testNGpack.TestClass1CrossBrowser">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:20 IST" name="launchBrowser" finished-at="2023-02-12T13:29:23 IST" duration-ms="3123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:23 IST" name="createPomObjects" finished-at="2023-02-12T13:29:23 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="openSignUpForm()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:24 IST" name="openSignUpForm" finished-at="2023-02-12T13:29:26 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpForm -->
+        <test-method signature="test1()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:26 IST" name="test1" finished-at="2023-02-12T13:29:26 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:26 IST" name="afterMethod" finished-at="2023-02-12T13:29:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test123()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:26 IST" name="test123" finished-at="2023-02-12T13:29:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test123 -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:testNGpack.TestClass1CrossBrowser@5af3afd9]" started-at="2023-02-12T13:29:26 IST" name="closedTheBrowser" finished-at="2023-02-12T13:29:27 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+      </class> <!-- testNGpack.TestClass1CrossBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-02-12T13:29:27 IST" name="FirefoxTest" finished-at="2023-02-12T13:29:43 IST" duration-ms="15856">
+      <class name="testNGpack.TestClass1CrossBrowser">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:27 IST" name="launchBrowser" finished-at="2023-02-12T13:29:32 IST" duration-ms="4942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObjects()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:32 IST" name="createPomObjects" finished-at="2023-02-12T13:29:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObjects -->
+        <test-method is-config="true" signature="openSignUpForm()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:32 IST" name="openSignUpForm" finished-at="2023-02-12T13:29:41 IST" duration-ms="8827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpForm -->
+        <test-method signature="test1()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:41 IST" name="test1" finished-at="2023-02-12T13:29:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:41 IST" name="afterMethod" finished-at="2023-02-12T13:29:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closedTheBrowser()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:41 IST" name="closedTheBrowser" finished-at="2023-02-12T13:29:43 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedTheBrowser -->
+        <test-method is-config="true" signature="test123()[pri:0, instance:testNGpack.TestClass1CrossBrowser@6adbc9d]" started-at="2023-02-12T13:29:41 IST" name="test123" finished-at="2023-02-12T13:29:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test123 -->
+      </class> <!-- testNGpack.TestClass1CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
