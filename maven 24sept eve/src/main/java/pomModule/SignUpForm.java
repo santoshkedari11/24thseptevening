@@ -47,7 +47,8 @@ public class SignUpForm {
 		@FindBy (xpath ="//a[@id=\'terms-link\']")
 		private WebElement terms;
 		
-		@FindBy (xpath ="//a[@id=\'cookie-use-link\']")
+		//@FindBy (xpath ="//a[@id=\'cookie-use-link\']")
+		@FindBy (xpath ="//a[@id=\'cookie-use-link123\']")
 		private WebElement cookies;
 		
 		//constructor
