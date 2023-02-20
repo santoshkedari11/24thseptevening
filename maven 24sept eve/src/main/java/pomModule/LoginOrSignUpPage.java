@@ -24,7 +24,8 @@ public class LoginOrSignUpPage {
 	@FindBy (xpath ="//a[text()='Create new account']")
 	private WebElement createNewAccount;
 	
-	@FindBy (xpath ="//a[text()='Create a Page']")
+	//@FindBy (xpath ="//a[text()='Create a Page']")
+	@FindBy (xpath ="//a[text()='Create a Page123']")
 	private WebElement createPage;
 	
 	//constructor
