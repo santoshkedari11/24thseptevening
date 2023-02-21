@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginOrSignUpPage {
 	
 	//variable
-	@FindBy (xpath ="//input[@type=\'text\']")
-	private WebElement userName;
+	//@FindBy (xpath ="//input[@type=\'text\']")
+	//private WebElement userName;
 	
-	@FindBy (xpath ="//input[@type=\'password\']")
-	private WebElement pasword;
+	//@FindBy (xpath ="//input[@type=\'password\']")
+	//private WebElement pasword;
 	
 	@FindBy (xpath ="//button[text()='Log in']")
 	private WebElement LoginButton;
